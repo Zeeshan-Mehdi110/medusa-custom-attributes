@@ -109,6 +109,7 @@ const CustomAttributesPage = ({ notify }: RouteProps) => {
         handle: "",
         name: "",
         type: undefined,
+        metadata: {},
       });
     },
     onError: (err: AxiosError) => {
